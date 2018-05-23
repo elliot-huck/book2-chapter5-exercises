@@ -6,7 +6,7 @@ let nextSentence = ["The", "quick", "fox", "jumped", "over", "the", "lazy","brow
     The addPunctuation function should be an impure function, and accept
     the array and the punctuation as arguments. It should iterate over the array and output the words to the browser console.
 */
-addPunctuation = (theWordArray, puncType) => {
+let addPunctuation = (theWordArray, puncType) => {
 
     // Initialize buildMeUp
     let buildMeUp = ``;
